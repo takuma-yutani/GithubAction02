@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    name: Greeting
+    steps:
+      - name: Hello
+        uses: takuma-yutani/GithubActionTest@v1
